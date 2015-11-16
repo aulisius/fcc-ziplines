@@ -1,0 +1,59 @@
+.img {
+	text-align: center;
+	display: block;
+	margin:auto;
+	width: 666px;
+}
+
+.opt-bar {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.opt {
+	border-style: none;
+	text-transform: uppercase;
+	color: #000;
+	text-align: center;
+	background-color: transparent;
+	font-family: "din", sans-serif;
+	font-size: 35px;
+	padding: 0 20px 0 20px;
+	cursor: pointer;
+}
+
+.field {
+	border: 3px solid black;
+	display: inline-block;
+}
+
+.active {
+	border-color: transparent;
+	color: #fff;
+	background-color: #000;
+}
+
+#counter {
+	display: block;
+	margin: auto;
+	background-color: #fff;
+	color: hsla(0, 0%, 0%, 1);
+	font-size: 250px;
+	font-family: "din", sans-serif;
+	text-align: center;
+}
+
+.bar {
+	border-width: 10px;
+}
+
+@font-face {
+	font-family: "din";
+	src: url("../fonts/din.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family: "din";
+	src: url("../fonts/din.eot");
+}
